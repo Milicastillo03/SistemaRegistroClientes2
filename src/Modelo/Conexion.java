@@ -13,7 +13,7 @@ public class Conexion {
     // Método para obtener la conexión
     public Connection getConnection() {
         // URL de la base de datos
-        String myBD = "jdbc:mysql://localhost:3306/sistemaregistrocliente?serverTimezone=UTC";
+        String myBD = "jdbc:mysql://localhost:3306/sistemaregistroclientes?serverTimezone=UTC";
         
         try {
             // Establecer la conexión
